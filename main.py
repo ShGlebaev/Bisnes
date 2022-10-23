@@ -8,6 +8,8 @@ import asyncio
 import config
 import markup as nav
 from readtext import randomtext
+import import keep_alive
+top = keep_alive.keep_alive()
 
 
 bot = Bot(token=config.token)
